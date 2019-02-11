@@ -1,0 +1,9 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: community-operators
+spec:
+  displayName: Community Operators
+  image: quay.io/njhale/community-operators@sha256:37f1dd6ab4f1082af9d8f9ef028a2be4fb2837c5a75ba59bd127ebc723bfee8d
+  publisher: community-operators
+  sourceType: grpc
